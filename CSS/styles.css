@@ -60,4 +60,23 @@ body {
 .main .form form .row {
   display: flex;
   flex-direction: row;
+  gap: 40px;
+}
+.main .form form .row input[type=text], .main .form form .row input[type=password], .main .form form .row input[type=email] {
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  width: 200px;
+  height: 30px;
+}
+.main .form form .button button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: #596D48;
+  color: #fff;
+}
+.main .form form .button button:hover {
+  background-color: #fff;
+  color: #596D48;
 }/*# sourceMappingURL=styles.css.map */
